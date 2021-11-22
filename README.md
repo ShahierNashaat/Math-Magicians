@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/ShahierNashaat/Math-Magicians.git)
+[Live Demo Link](https://shahiernashaat.github.io/Math-Magicians/)
 
 
 ## Getting Started
