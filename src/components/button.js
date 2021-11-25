@@ -1,6 +1,5 @@
-/* eslint-disable react/prop-types */
-
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Button = (props) => {
   const handleClick = (e) => {
@@ -14,6 +13,18 @@ const Button = (props) => {
       {buttonName}
     </button>
   );
+};
+
+Button.defaultProps = {
+  className: '',
+  buttonName: '',
+  handleButtonClick: () => {},
+};
+
+Button.propTypes = {
+  className: PropTypes.string,
+  buttonName: PropTypes.string,
+  handleButtonClick: PropTypes.func,
 };
 
 export { Button as default };
