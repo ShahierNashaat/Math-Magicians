@@ -1,10 +1,8 @@
-/* eslint-disable import/extensions */
-
 import './Calculator.css';
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
-import Result from './Result';
-import Button from './Button';
+import Result from './result';
+import Button from './button';
 
 let obj = {};
 
