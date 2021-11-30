@@ -1,3 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
 .calculator {
   width: 400px;
   display: flex;
