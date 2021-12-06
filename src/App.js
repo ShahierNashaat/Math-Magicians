@@ -14,23 +14,23 @@ function App() {
           <h1>Math Magicians</h1>
           <ul>
             <li>
-              <Link to="/Math-Magicians/">Home</Link>
+              <Link to="/">Home</Link>
             </li>
             |
             <li>
-              <Link to="/Math-Magicians/calculator">Calculator</Link>
+              <Link to="/calculator">Calculator</Link>
             </li>
             |
             <li>
-              <Link to="/Math-Magicians/quote">Quote</Link>
+              <Link to="/quote">Quote</Link>
             </li>
           </ul>
         </nav>
 
         <Routes>
-          <Route path="/Math-Magicians/" element={<Home />} />
-          <Route path="/Math-Magicians/calculator" element={<Calculator />} />
-          <Route path="/Math-Magicians/quote" element={<Quote />} />
+          <Route path="/" element={<Home />} />
+          <Route path="calculator" element={<Calculator />} />
+          <Route path="quote" element={<Quote />} />
         </Routes>
 
       </div>
