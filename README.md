@@ -17,7 +17,7 @@
 
 [Live Demo Link Using Heroku](https://math-magicians-shahier.herokuapp.com/)
 
-[Live Demo Link Using Netlify](https://math-magicians-shahier.herokuapp.com/)
+[Live Demo Link Using Netlify](https://silly-engelbart-a897b7.netlify.app/)
 
 ## Getting Started
 
