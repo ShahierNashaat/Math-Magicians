@@ -1,4 +1,5 @@
 import './App.css';
+import { BrowserRouter as Router } from 'react-router-dom';
 import {
   Routes, Route, Link,
 } from 'react-router-dom';
@@ -8,31 +9,33 @@ import Quote from './components/Quote';
 
 function App() {
   return (
-    <div>
-      <nav>
-        <h1>Math Magicians</h1>
-        <ul>
-          <li>
-            <Link to="/Math-Magicians/">Home</Link>
-          </li>
-          |
-          <li>
-            <Link to="/Math-Magicians/calculator">Calculator</Link>
-          </li>
-          |
-          <li>
-            <Link to="/Math-Magicians/quote">Quote</Link>
-          </li>
-        </ul>
-      </nav>
+    <Router>
+      <div>
+        <nav>
+          <h1>Math Magicians</h1>
+          <ul>
+            <li>
+              <Link to="/Math-Magicians/">Home</Link>
+            </li>
+            |
+            <li>
+              <Link to="/Math-Magicians/calculator">Calculator</Link>
+            </li>
+            |
+            <li>
+              <Link to="/Math-Magicians/quote">Quote</Link>
+            </li>
+          </ul>
+        </nav>
 
-      <Routes>
-        <Route path="/Math-Magicians/" element={<Home />} />
-        <Route path="/Math-Magicians/calculator" element={<Calculator />} />
-        <Route path="/Math-Magicians/quote" element={<Quote />} />
-      </Routes>
+        <Routes>
+          <Route path="/Math-Magicians/" element={<Home />} />
+          <Route path="/Math-Magicians/calculator" element={<Calculator />} />
+          <Route path="/Math-Magicians/quote" element={<Quote />} />
+        </Routes>
 
-    </div>
+      </div>
+    </Router>
   );
 }
 
