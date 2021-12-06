@@ -15,8 +15,9 @@
 
 ## Live Demo
 
-[Live Demo Link](https://shahiernashaat.github.io/Math-Magicians/)
+[Live Demo Link Using Heroku](https://math-magicians-shahier.herokuapp.com/)
 
+[Live Demo Link Using Netlify](https://math-magicians-shahier.herokuapp.com/)
 
 ## Getting Started
 
